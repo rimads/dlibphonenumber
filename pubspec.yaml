@@ -17,7 +17,7 @@ platforms:
   windows:
 
 environment:
-  sdk: ^3.0.0
+  sdk: ">=2.19.5 <3.0.0"
 
 dependencies:
   protobuf: ^3.0.0

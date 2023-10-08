@@ -2886,7 +2886,7 @@ class PhoneNumberUtil {
         // the string buffer and making the transformation on the copy first.
         StringBuffer transformedNumber = StringBuffer(number.toString());
         String replacedFirstNumber = _replaceFirstAndFormat(
-            number.toString(), prefixMatcher.pattern, transformRule);
+            number.toString(), prefixMatcher.pattern as RegExp, transformRule);
         transformedNumber.clear();
         transformedNumber.write(replacedFirstNumber);
 

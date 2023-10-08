@@ -9,8 +9,9 @@ pubspec.lock
 # exclude code changes history
 .history/
 
-# exclude vscode config file
+# exclude IDE config file
 .vscode/
+.idea/
 
 # exclude this until the implementation is complete.
 lib/as_you_type_formatter.dart
